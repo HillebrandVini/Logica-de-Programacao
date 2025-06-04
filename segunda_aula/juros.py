@@ -1,0 +1,5 @@
+cap = float(input("Insira o capital inicial: "))
+juros_mes = float(input("Insira o juros por mes: "))
+tempo = int(input("Insira a quantidade de meses: "))
+valor_final = cap + (cap * (juros_mes/100) * tempo)
+print(valor_final)
